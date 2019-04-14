@@ -1,0 +1,7 @@
+/www/data
+/rsconnect
+
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
