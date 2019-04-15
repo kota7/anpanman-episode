@@ -53,7 +53,7 @@ latestData <- function() {
   }
   x <- cleanData(x)
   
-  x[["放送日 (TV Japan)"]] <- guessTVJapan(x)
+  x[["\u653e\u9001\u65e5 (TV Japan)"]] <- guessTVJapan(x)
   
   x <- x[order(x[[DATECOL]], decreasing=TRUE),]
   x
