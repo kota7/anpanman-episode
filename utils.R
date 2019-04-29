@@ -20,11 +20,13 @@ DATECOL   <- grep("\u653e\u9001\u65e5", COLUMNS)
 
 TVJAPANMATCH <- data.frame(
   japan=c(
-    "2018-04-27"     # dokudami
+     "2017-10-20"    # sirobara
+    ,"2018-04-27"    # dokudami
     ,"2018-05-18"    # book
   ) %>% as.Date(), 
   us=c(
-    "2019-03-20"
+     "2018-09-19"
+    ,"2019-03-20"
     ,"2019-04-17"
   ) %>% as.Date(),
   stringsAsFactors=FALSE
